@@ -1,0 +1,175 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+/*头部*/
+.header{
+	width:100%;
+	height:80px;
+	box-shadow: 0px 5px 15px #DE735F;
+}
+/*头部--logo*/
+.header .logo{
+	display: inline-block;
+	width:160px;
+	height:50px;
+	background: url(../img/icon.jpg) center center no-repeat;
+	position: absolute;
+	top:20px;
+	left:20px;
+}
+/*头部--描述*/
+.header .desc{
+	font-weight: bold;
+	position: absolute;
+	top:30px;
+	left:200px;
+	font-size:18px;
+	line-height: 30px;
+	border-left:2px solid #ccc;
+	padding-left:10px;
+}
+/*表单部分*/
+i{
+	font-style:normal;
+}
+a{
+	text-decoration: none;
+}
+label{
+	font-size:16px;
+}
+.container{
+	width:1200px;
+	margin:0px auto;
+}
+.register{
+	width:500px;
+	height: auto;
+	margin:0px auto;
+	padding-top:40px;
+	position:relative;
+}
+.register-box{
+	width:100%;
+	height: 50px;
+	padding-bottom: 30px;
+}
+.register-box .box{
+	height:50px;
+	line-height: 50px;
+	padding-left:10px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	position: relative;
+}
+.register-box .box input{
+	width:300px;
+	height: 30px;
+	border:1px solid lightskyblue;
+	border-radius: 5px;
+	font-size:12px;
+	padding-left:20px;
+}
+/*box--输入信息错误*/
+.register-box .box.error{
+	border:1px solid red;
+}
+/*box--输入信息正确*/
+.register-box .box.right i{
+	width:20px;
+	height: 20px;
+	background: url(../img/right.png) center center no-repeat;
+	position: absolute;
+	top:50%;
+	right:10px;
+	margin-top:-10px;
+}
+/*验证信息结果项*/
+.register-box .tip{
+	padding-left:10px;
+	width: 100%;
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+}
+/*提示信息图标*/
+.register-box .tip i{
+	/*background: url(../img/error.png) center center no-repeat;*/
+	width:20px;
+	height:20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.register-box .tip span{
+	color:gray;
+}
+.register-box .tip.hide{
+	display: none;
+}
+/*提示信息默认样式*/
+.register-box .tip.default i{
+	background: url(../img/default.png) no-repeat center center;
+}
+.register-box .tip.default span{
+	color: gray;
+}
+/*tip---错误样式*/
+.register-box .tip.error i{
+	background: url(../img/error.png) no-repeat center center;
+}
+.register-box .tip.error span{
+	color: red;
+}
+
+/*tip--密码弱*/
+.register-box .tip.ruo i {
+	background: url(../img/ruo.png) no-repeat center center;
+}
+/*tip--密码中*/
+.register-box .tip.zhong i {
+	background: url(../img/zhong.png) no-repeat center center;
+}
+/*tip--密码强*/
+.register-box .tip.qiang i {
+	background: url(../img/qiang.png) no-repeat center center;
+}
+
+/*注册协议*/
+.register-box.xieyi{
+	height:55px;
+	line-height:55px;
+	width: 100%;
+}
+.register-box.xieyi .box{
+	padding:0px;
+	border:none;
+}
+.register-box.xieyi .box input{
+	height:13px;
+	width:auto;
+	padding:0px;
+}
+.register-box.xieyi .box span{
+	font-size:14px;
+}
+.register-box.xieyi .box a{
+	font-size:12px;
+}
+/*.register-box.xieyi .box.error{
+	line-height: normal;
+	padding:10px auto;
+}*/
+/*提交按钮*/
+#btn{
+	border:none;
+	font-size:16px;
+	width:100%;
+	height: 40px;
+	color:white;
+	border-radius: 5px;
+	background:  #FF4500;
+}
+
+/*--------------------------------------------------------------*/
+

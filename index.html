@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/index.css" />
+		<script src='js/functionPackage.js'></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class='header'>
+			<a href="#" class='logo'></a>
+			<div class='desc'>注册入口</div>
+		</div>
+		<!--内容部分-->
+		<div class='container'>
+			<div class='register'>
+				<form action="http://www.baidu.com" onsubmit="return checkData()">
+					<!--用户名-->
+					<div class='register-box'>
+						<!--验证表单项-->
+						<div class='box default'>
+							<label for="userName">用户名 ： &nbsp;</label>
+							<input type="text" id='userName' name='userName' placeholder="请输入用户名"/>
+							<!--正确提示信息，小对号-->
+							<i></i>
+						</div>
+						<!--信息提示项-->
+						<div class='tip'>
+							<!--图标-->
+							<i></i>
+							<!--提示信息-->
+							<span></span>
+						</div>
+					</div>
+					<!--设置密码-->
+					<div class='register-box'>
+						<!--验证表单项-->
+						<div class='box default'>
+							<label for="pwd">设置密码  ： </label>
+							<input type="password" id='pwd' name='pwd' placeholder="请输入设置密码"/>
+							<!--正确提示信息-->
+							<i></i>
+						</div>
+						<!--信息提示项-->
+						<div class='tip'>
+							<i></i>
+							<span></span>
+						</div>
+					</div>
+					<!--确认密码-->
+					<div class='register-box'>
+						<!--验证表单项-->
+						<div class='box default'>
+							<label for="pwd2">确认密码  ： </label>
+							<input type="password" id='pwd2' name='pwd2' placeholder="请再次输入密码"/>
+							<!--正确提示信息-->
+							<i></i>
+						</div>
+						<!--信息提示项-->
+						<div class='tip'>
+							<i></i>
+							<span></span>
+						</div>
+					</div>
+					<!--验证邮箱-->
+					<div class='register-box'>
+						<!--验证表单项-->
+						<div class='box default'>
+							<label for="email">邮箱验证 ： </label>
+							<input type="text" id='email' name='email' placeholder="请输入邮箱"/>
+							<!--正确提示信息-->
+							<i></i>
+						</div>
+						<!--信息提示项-->
+						<div class='tip'>
+							<i></i>
+							<span></span>
+						</div>
+					</div>
+					<!--验证手机号码-->
+					<div class='register-box'>
+						<!--验证表单项-->
+						<div class='box default'>
+							<label for="mobile">手机验证 ： </label>
+							<input type="text" id='mobile' name='mobile' placeholder="请输入手机号码"/>
+							<!--正确提示信息-->
+							<i></i>
+						</div>
+						<!--信息提示项-->
+						<div class='tip'>
+							<i></i>
+							<span></span>
+						</div>
+					</div>
+					<!--注册协议-->
+					<div class='register-box xieyi'>
+						<!--验证表单项-->
+						<div class='box default'>
+							<input type="checkbox" id='ck' name='ck'/>
+							<span>我已经阅读并同意<a href="#">《用户注册协议》</a></span>
+						</div>
+						<!--信息提示项-->
+						<div class='tip'>
+							<i></i>
+							<span></span>
+						</div>
+					</div>
+					<!--信息提交-->
+					<div class='sub'>
+						<input type="submit" id='btn'/>
+					</div>
+				</form>
+			</div>
+		</div>
+	<script src='js/index.js'></script>	
+	</body>
+</html>
